@@ -1,6 +1,10 @@
-﻿namespace TccSpeech.Api.Model
+﻿using System.Collections.Generic;
+
+namespace TccSpeech.Api.Model
 {
-    public class TextAnalisys
+    public class TextAnalysis
     {
+        public IEnumerable<SentenceSummary> Summaries { get; set; }
+        public IEnumerable<SentenceSummary> Extras { get; set; }
     }
 }

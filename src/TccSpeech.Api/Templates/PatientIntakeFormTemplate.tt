@@ -129,7 +129,7 @@
                                         Full name:
                                     </td>
                                     <td colspan="3">
-                                        <#= GetValue("##bio-fullname##") #>
+                                        <#= GetValue("bio-fullname") #>
                                     </td>
                                 </tr>
                                 <tr>
@@ -137,7 +137,7 @@
                                         Address:
                                     </td>
                                     <td colspan="3">
-                                        <#= GetValue("##bio-address##") #>
+                                        <#= GetValue("bio-address") #>
                                     </td>
                                 </tr>
                                 <tr>
@@ -145,13 +145,13 @@
                                         City:
                                     </td>
                                     <td>
-                                        <#= GetValue("##bio-city##") #>
+                                        <#= GetValue("bio-city") #>
                                     </td>
                                     <td style="width: 50px; padding-left: 10pt;" class="label">
                                         State:
                                     </td>
                                     <td>
-                                        <#= GetValue("##bio-state##") #>
+                                        <#= GetValue("bio-state") #>
                                     </td>
                                 </tr>
                                 <tr>
@@ -159,13 +159,13 @@
                                         Phone:
                                     </td>
                                     <td>
-                                        <#= GetValue("##bio-phone##") #>
+                                        <#= GetValue("bio-phone") #>
                                     </td>
                                     <td style="width: 50px; padding-left: 10pt;" class="label">
                                         DoB:
                                     </td>
                                     <td>
-                                        <#= GetValue("##bio-dob##") #>
+                                        <#= GetValue("bio-dob") #>
                                     </td>
                                 </tr>
                             </tbody>
@@ -185,7 +185,7 @@
                                         Name:
                                     </td>
                                     <td colspan="3">
-                                        <#= GetValue("##emergency-name##") #>
+                                        <#= GetValue("emergency-name") #>
                                     </td>
                                 </tr>
                                 <tr>
@@ -193,13 +193,13 @@
                                         Phone:
                                     </td>
                                     <td>
-                                        <#= GetValue("##emergency-phone##") #>
+                                        <#= GetValue("emergency-phone") #>
                                     </td>
                                     <td style="width: 100px; padding-left: 10pt;" class="label">
                                         Relationship:
                                     </td>
                                     <td>
-                                        <#= GetValue("##emergency-relationship##") #>
+                                        <#= GetValue("emergency-relationship") #>
                                     </td>
                                 </tr>
                             </tbody>
@@ -219,7 +219,7 @@
                                         Medications:
                                     </td>
                                     <td>
-                                        <#= GetValue("##medical-medications##") #>
+                                        <#= GetValue("medical-medications") #>
                                     </td>
                                 </tr>
                             </tbody>
@@ -235,19 +235,19 @@
                                 <tr>
                                     <td style="border: none; width: 30%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-headaches##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-headaches") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Headaches</div>
                                     </td>
                                     <td style="border: none; width: 30%;">
                                         <div class="square">
-                                            <#= (GetValue("##health-cancer##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            <#= (GetValue("health-cancer") == "true") ? "<div class='square-checked'></div>" : "" #>
                                         </div>
                                         <div class="square-label">Cancer</div>
                                     </td>
                                     <td style="border: none; width: 40%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-heart##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-heart") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Heart / Circulation problem</div>
                                     </td>
@@ -255,19 +255,19 @@
                                 <tr>
                                     <td style="border: none; width: 30%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-numbness##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-numbness") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Numbness</div>
                                     </td>
                                     <td style="border: none; width: 30%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-diabetes##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-diabetes") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Diabetes</div>
                                     </td>
                                     <td style="border: none; width: 40%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-pressure##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-pressure") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">High / Low blood pressure</div>
                                     </td>
@@ -275,13 +275,13 @@
                                 <tr>
                                     <td style="border: none; width: 30%;">
                                         <div class="square">
-                                                <#= (GetValue("##health-allergy##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-allergy") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Allergies</div>
                                     </td>
                                     <td style="border: none; width: 70%;" colspan="2">
                                         <div class="square">
-                                                <#= (GetValue("##health-neckback##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                                <#= (GetValue("health-neckback") == "true") ? "<div class='square-checked'></div>" : "" #>
                                             </div>
                                         <div class="square-label">Neck / Back injuries</div>
                                     </td>
@@ -296,7 +296,7 @@
                                         Conditions Details:
                                     </td>
                                     <td>
-                                        <#= GetValue("##medical-details##") #>
+                                        <#= GetValue("medical-details") #>
                                     </td>
                                 </tr>
                             </tbody>
@@ -313,7 +313,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <#= GetValue("##reason-appointment##") #>
+                                        <#= GetValue("reason-appointment") #>
                                     </td>
                                 </tr>
                             </tbody>

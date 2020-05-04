@@ -18,7 +18,7 @@ namespace TccSpeech.Api.Templates
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+    #line 1 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "16.0.0.0")]
     public partial class PatientIntakeFormTemplate : PatientIntakeFormTemplateBase
     {
@@ -70,8 +70,8 @@ namespace TccSpeech.Api.Templates
                     "                           <td colspan=\"3\">\r\n                                   " +
                     "     ");
             
-            #line 132 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-fullname##")));
+            #line 132 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-fullname")));
             
             #line default
             #line hidden
@@ -85,8 +85,8 @@ namespace TccSpeech.Api.Templates
                                     <td colspan=""3"">
                                         ");
             
-            #line 140 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-address##")));
+            #line 140 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-address")));
             
             #line default
             #line hidden
@@ -100,8 +100,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 148 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-city##")));
+            #line 148 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-city")));
             
             #line default
             #line hidden
@@ -113,8 +113,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 154 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-state##")));
+            #line 154 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-state")));
             
             #line default
             #line hidden
@@ -128,8 +128,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 162 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-phone##")));
+            #line 162 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-phone")));
             
             #line default
             #line hidden
@@ -141,8 +141,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 168 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##bio-dob##")));
+            #line 168 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("bio-dob")));
             
             #line default
             #line hidden
@@ -168,8 +168,8 @@ namespace TccSpeech.Api.Templates
                                     <td colspan=""3"">
                                         ");
             
-            #line 188 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##emergency-name##")));
+            #line 188 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("emergency-name")));
             
             #line default
             #line hidden
@@ -183,8 +183,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 196 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##emergency-phone##")));
+            #line 196 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("emergency-phone")));
             
             #line default
             #line hidden
@@ -196,8 +196,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 202 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##emergency-relationship##")));
+            #line 202 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("emergency-relationship")));
             
             #line default
             #line hidden
@@ -223,8 +223,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 222 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##medical-medications##")));
+            #line 222 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("medical-medications")));
             
             #line default
             #line hidden
@@ -246,8 +246,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 238 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-headaches##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 238 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-headaches") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -259,8 +259,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                             ");
             
-            #line 244 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-cancer##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 244 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-cancer") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -272,8 +272,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 250 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-heart##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 250 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-heart") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -287,8 +287,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 258 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-numbness##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 258 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-numbness") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -300,8 +300,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 264 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-diabetes##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 264 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-diabetes") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -313,8 +313,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 270 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-pressure##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 270 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-pressure") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -328,8 +328,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 278 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-allergy##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 278 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-allergy") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -341,8 +341,8 @@ namespace TccSpeech.Api.Templates
                                         <div class=""square"">
                                                 ");
             
-            #line 284 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("##health-neckback##") == "true") ? "<div class='square-checked'></div>" : ""));
+            #line 284 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture((GetValue("health-neckback") == "true") ? "<div class='square-checked'></div>" : ""));
             
             #line default
             #line hidden
@@ -363,8 +363,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 299 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##medical-details##")));
+            #line 299 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("medical-details")));
             
             #line default
             #line hidden
@@ -387,8 +387,8 @@ namespace TccSpeech.Api.Templates
                                     <td>
                                         ");
             
-            #line 316 "C:\Src\NC\tcc-speech\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("##reason-appointment##")));
+            #line 316 "C:\Users\rafa_\source\repos\tcc-speech-private\src\TccSpeech.Api\Templates\PatientIntakeFormTemplate.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(GetValue("reason-appointment")));
             
             #line default
             #line hidden
