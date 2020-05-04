@@ -1,0 +1,138 @@
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-BenjaminRUS">
+    <p>
+      Hi, I’m John.
+      I need to ask you some questions so we can proceed with your appointment.
+      What’s your full name?
+    </p>
+  </voice>
+  <voice name="en-CA-Linda">*
+    Tia Macdonald.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What about your date of birth?
+  </voice>
+  <voice name="en-CA-Linda">
+    December 3rd 1987.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What is your address?
+  </voice>
+  <voice name="en-CA-Linda">
+    105 East Magnolia Street.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Where is that?
+  </voice>
+  <voice name="en-CA-Linda">
+    It’s in Tullahoma, Tennessee.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What’s your phone number?
+  </voice>
+  <voice name="en-CA-Linda">
+    931-555-9934.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you take any medicine regularly?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you feel any numbness?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you have any heart condition, or circulation problems?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Any type of diabetes?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you have headaches often?
+  </voice>
+  <voice name="en-CA-Linda">
+    Yeah, like three times a week.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you have, or had, any type of cancer?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What about high blood pressure?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Any injuries on your neck or back area?
+  </voice>
+  <voice name="en-CA-Linda">
+    No.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Do you have any allergies?
+  </voice>
+  <voice name="en-CA-Linda">
+    Yes, shrimps.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Is there anyone we can contact in case of emergency?
+  </voice>
+  <voice name="en-CA-Linda">
+    Yeah, Eliana Macdonald.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What’s your relationship with Eliana?
+  </voice>
+  <voice name="en-CA-Linda">
+    She is my mother.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What’s your mother’s phone number?
+  </voice>
+  <voice name="en-CA-Linda">
+    931-555-3744.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    What is the main reason for your appointment with us today?
+  </voice>
+  <voice name="en-CA-Linda">
+    I have been under a lot of stress lately and I think that this is what is causing so much headaches and I would like to know more about that.
+  </voice>
+  <voice name="en-US-BenjaminRUS">
+    <break time="1000ms" />
+    Thanks Tia, I’ll talk to the doctor, just give me a moment and I come back to you.
+  </voice>
+  <voice name="en-CA-Linda">
+    Okay, sure.
+  </voice>
+</speak>

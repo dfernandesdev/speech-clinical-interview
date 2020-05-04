@@ -1,0 +1,327 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+        }
+        .page-header,
+        .page-header-space {
+            height: 100px;
+        }
+
+
+        .page-header {
+            position: fixed;
+            top: 0mm;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .table td {
+            padding-top: 10pt;
+            padding-right: 5pt;
+            padding-bottom: 3pt;
+            padding-left: 0;
+            vertical-align: bottom;
+            border-bottom: solid black 1pt;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .table td.header {
+            background-color: #D9D9D9 !important;
+            padding: 10pt 5pt;
+            font-weight: bold;
+            border: none;
+            vertical-align: middle;
+        }
+
+        .table td.label {
+            font-weight: bold;
+            border: none;
+        }
+
+        .square {
+           height: 18px;
+           width: 18px;
+           border: solid #777777 2px;
+           background-color: transparent;
+           float: left;
+           margin-right: 10pt;
+        }
+
+        .square .square-checked {
+           height: 12px;
+           width: 12px;
+           background-color: #555555;
+           margin: 3px;
+        }
+
+        .square-label {
+            padding-top: 1pt;
+        }
+
+        @page {
+            margin: 20mm
+        }
+
+        @media print {
+            thead {
+                display: table-header-group;
+            }
+
+            tfoot {
+                display: table-footer-group;
+            }
+
+            button {
+                display: none;
+            }
+
+            body {
+                margin: 0;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <p style="text-align: center; font-size: 30pt; font-weight: bold;">
+            Patient Intake Form
+        </p>
+    </div>
+  
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <!--place holder for the fixed-position header-->
+                    <div class="page-header-space"></div>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="page">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td class="header" colspan="4">
+                                        Demographic
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Full name:
+                                    </td>
+                                    <td colspan="3">
+                                        <#= GetValue("##bio-fullname##") #>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Address:
+                                    </td>
+                                    <td colspan="3">
+                                        <#= GetValue("##bio-address##") #>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        City:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##bio-city##") #>
+                                    </td>
+                                    <td style="width: 50px; padding-left: 10pt;" class="label">
+                                        State:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##bio-state##") #>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Phone:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##bio-phone##") #>
+                                    </td>
+                                    <td style="width: 50px; padding-left: 10pt;" class="label">
+                                        DoB:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##bio-dob##") #>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <br />
+                        <br />
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td class="header" colspan="4">
+                                        Emergency Contact
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Name:
+                                    </td>
+                                    <td colspan="3">
+                                        <#= GetValue("##emergency-name##") #>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Phone:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##emergency-phone##") #>
+                                    </td>
+                                    <td style="width: 100px; padding-left: 10pt;" class="label">
+                                        Relationship:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##emergency-relationship##") #>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <br />
+                        <br />
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td class="header" colspan="2">
+                                        Medical History
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80px;" class="label">
+                                        Medications:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##medical-medications##") #>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 80px; padding-bottom: 5pt;" class="label" colspan="3">
+                                        Health Conditions:
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border: none; width: 30%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-headaches##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Headaches</div>
+                                    </td>
+                                    <td style="border: none; width: 30%;">
+                                        <div class="square">
+                                            <#= (GetValue("##health-cancer##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                        </div>
+                                        <div class="square-label">Cancer</div>
+                                    </td>
+                                    <td style="border: none; width: 40%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-heart##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Heart / Circulation problem</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border: none; width: 30%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-numbness##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Numbness</div>
+                                    </td>
+                                    <td style="border: none; width: 30%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-diabetes##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Diabetes</div>
+                                    </td>
+                                    <td style="border: none; width: 40%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-pressure##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">High / Low blood pressure</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border: none; width: 30%;">
+                                        <div class="square">
+                                                <#= (GetValue("##health-allergy##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Allergies</div>
+                                    </td>
+                                    <td style="border: none; width: 70%;" colspan="2">
+                                        <div class="square">
+                                                <#= (GetValue("##health-neckback##") == "true") ? "<div class='square-checked'></div>" : "" #>
+                                            </div>
+                                        <div class="square-label">Neck / Back injuries</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 140px;" class="label">
+                                        Conditions Details:
+                                    </td>
+                                    <td>
+                                        <#= GetValue("##medical-details##") #>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <br />
+                        <br />
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td class="header">
+                                        Reason of Appointment
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <#= GetValue("##reason-appointment##") #>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,142 @@
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-ZiraRUS">
+    Hi, I’m Erica, what is your name?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Hello! I am Victoria.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Victoria, may I ask you some questions so we can help you?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Sure.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What is the main reason for your appointment with us today?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    I fell in my kitchen last night and now I am feeling some pain in my lumbar.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What’s your last name?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Robinson.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What about your date of birth?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    May 24th 1968.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What is your address?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    17902 West Cottage Drive.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What city and state?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Nutley, New Jersey.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What is your phone number?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    973-555-0194.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Do you take any medicine regularly?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Yes. I take a pill every day for my high blood pressure.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Any type of diabetes?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Any injuries on your neck or back area?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Yes. In my lumbar area.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Do you usually have headaches?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Have you had any type of cancer?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Do you have any allergies?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What about high blood pressure?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Yes.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Do you have any heart condition, or maybe circulation problems?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Do you feel numbness anywhere?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    No.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Who can we contact in case of emergency?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    My sister, Sara.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    What’s your sister’s phone number?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    973-555-7455.
+  </voice>
+  <voice name="en-US-ZiraRUS">
+    <break time="1000ms" />
+    Thank you very much Victoria. 
+    Please have a seat there near the television and I will talk to you soon, if you need anything just let me know, okay?
+  </voice>
+  <voice name="en-GB-HazelRUS">
+    Okay, thank you.
+  </voice>
+</speak>

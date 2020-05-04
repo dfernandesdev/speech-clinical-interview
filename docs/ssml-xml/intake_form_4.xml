@@ -1,0 +1,129 @@
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    Hello, what is your name?
+  </voice>
+  <voice name="en-IE-Sean">*
+    Hey, I’m David.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Welcome David, I am Sara.
+    Since it’s your first time with us I’m gonna ask you some questions so we can proceed with your appointment.
+    What’s your full name?
+  </voice>
+  <voice name="en-IE-Sean">
+    David Smith.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What is your address?
+  </voice>
+  <voice name="en-IE-Sean">
+    445 William Street, West Lafayette, Indiana.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What about your date of birth?
+  </voice>
+  <voice name="en-IE-Sean">
+    September 30th 1985.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What is your phone number?
+  </voice>
+  <voice name="en-IE-Sean">
+    337-555-0131.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Who can contact in case of any emergency?
+  </voice>
+  <voice name="en-IE-Sean">
+    My wife, Jennifer.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What’s your wife’s phone number?
+  </voice>
+  <voice name="en-IE-Sean">
+    337-555-2141.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    May I ask the reason for your appointment?
+  </voice>
+  <voice name="en-IE-Sean">
+    I had an accident a couple weeks ago and now I have been feeling some dizziness and strong headaches.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you normally have headaches?
+  </voice>
+  <voice name="en-IE-Sean">
+    No, not at all.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Any injuries on your neck or back area?
+  </voice>
+  <voice name="en-IE-Sean">
+    No, not that I can feel.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any type of diabetes?
+  </voice>
+  <voice name="en-IE-Sean">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Have you had any type of cancer?
+  </voice>
+  <voice name="en-IE-Sean">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any circulation or heart problems?
+  </voice>
+  <voice name="en-IE-Sean">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you feel any numbness?
+  </voice>
+  <voice name="en-IE-Sean">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you take any medicine daily?
+  </voice>
+  <voice name="en-IE-Sean">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Any allergies?
+  </voice>
+  <voice name="en-IE-Sean">
+    Hmm. <break time="1000ms" /> No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have high blood pressure?
+  </voice>
+  <voice name="en-IE-Sean">
+    Yes I do. It’s minor, I don’t even take pills.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Thank you David, please have a seat and I will talk to you in a minute.
+  </voice>
+  <voice name="en-IE-Sean">
+    Okay.
+  </voice>
+</speak>
