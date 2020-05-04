@@ -500,105 +500,105 @@ namespace TccSpeech.Api.Helper
             return extras;
         }
 
-        public static List<TextAnalisysToPdf> PlaceAnswers(TextAnalysis analysis)
+        public static List<TextAnalisysToForm> PlaceAnswers(TextAnalysis analysis)
         {
-            var conversion = new List<TextAnalisysToPdf>();
+            var conversion = new List<TextAnalisysToForm>();
 
             foreach (var question in analysis.Summaries.Where(x => x.Answer == null))
             {
                 if (Constants.NameKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-fullname", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-fullname", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.AddressKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-address", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-address", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.CityKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-city", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-city", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.StateKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-state", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-state", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.PhoneKeywords.CaseInsensitiveContains(question.KeyWords) && (Constants.RelationshipTypes.CaseInsensitiveContains(question.KeyWords) || question.Names.Any()))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "emergency-phone", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "emergency-phone", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.PhoneKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-phone", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-phone", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.DateKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-dob", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-dob", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.ContactKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "emergency-name", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "emergency-name", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.RelationshipKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "emergency-relationship", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "emergency-relationship", Value = question.CombinedAnswerText });
                 }
                 else if (Constants.MedicineQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "medical-medications", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "medical-medications", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.HeadacheQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-headaches", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-headaches", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.CancerQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-cancer", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-cancer", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.HeartQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-heart", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-heart", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.NumbnessQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-numbness", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-numbness", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.DiabetesQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-diabetes", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-diabetes", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.PressureQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-pressure", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-pressure", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.AllergyQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-allergy", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-allergy", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.SpineInjuriesQuestionKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "health-neckback", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
+                    conversion.Add(new TextAnalisysToForm() { Key = "health-neckback", Value = GetGeneralQuestionAnswer(question.CombinedAnswerText) });
                 }
                 else if (Constants.AppointmentKeywords.CaseInsensitiveContains(question.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "reason-appointment", Value = question.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "reason-appointment", Value = question.CombinedAnswerText });
                 }
             }
 
-            var medicalDetails = new TextAnalisysToPdf() { Key = "medical-details" };
+            var medicalDetails = new TextAnalisysToForm() { Key = "medical-details" };
             var medicalDetailsText = new StringBuilder();
             foreach (var extra in analysis.Extras)
             {
                 if (Constants.CityKeywords.CaseInsensitiveContains(extra.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-city", Value = extra.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-city", Value = extra.CombinedAnswerText });
                 }
                 else if (Constants.StateKeywords.CaseInsensitiveContains(extra.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "bio-state", Value = extra.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "bio-state", Value = extra.CombinedAnswerText });
                 }
                 else if (Constants.RelationshipKeywords.CaseInsensitiveContains(extra.KeyWords))
                 {
-                    conversion.Add(new TextAnalisysToPdf() { Key = "emergency-relationship", Value = extra.CombinedAnswerText });
+                    conversion.Add(new TextAnalisysToForm() { Key = "emergency-relationship", Value = extra.CombinedAnswerText });
                 }
                 else if (Constants.MedicineQuestionKeywords.CaseInsensitiveContains(extra.KeyWords))
                 {

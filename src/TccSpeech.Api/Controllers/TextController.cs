@@ -27,7 +27,7 @@ namespace TccSpeech.Api.Controllers
         /// <returns></returns>
         [HttpPost("analyze")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public TextAnalysis AnalyzeSpeechAsync([FromBody]IEnumerable<SpeechAnalisys> speech)
+        public List<TextAnalisysToForm> AnalyzeSpeechAsync([FromBody]IEnumerable<SpeechAnalisys> speech)
         {
             var text = string.Join(" ",
                 speech.Select(x =>
@@ -69,7 +69,8 @@ namespace TccSpeech.Api.Controllers
                 Summaries = summaries,
                 Extras = extraInfo
             };
-            return analysis;
+
+            return TextAnalysisLogic.PlaceAnswers(analysis); // Map from result 
         }
 
         /// <summary>
