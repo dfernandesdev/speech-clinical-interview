@@ -1,0 +1,116 @@
+[
+  {
+    "sentence": "Hello, what is your name?"
+  },
+  {
+    "sentence": "Hi, I'm David."
+  },
+  {
+    "sentence": "Welcome David, I am Sarah."
+  },
+  {
+    "sentence": "Since it's your first time with us, I'm going to ask you some questions so we can proceed with your appointment."
+  },
+  {
+    "sentence": "What's your full name?"
+  },
+  {
+    "sentence": "David Smith."
+  },
+  {
+    "sentence": "What is your address?"
+  },
+  {
+    "sentence": "445 William Street, West Lafayette, Indiana."
+  },
+  {
+    "sentence": "What about your date of birth?"
+  },
+  {
+    "sentence": "The 30th of September 1985."
+  },
+  {
+    "sentence": "What is your phone number?"
+  },
+  {
+    "sentence": "337-555-0131."
+  },
+  {
+    "sentence": "Who can contact in case of any emergency?"
+  },
+  {
+    "sentence": "My wife, Jennifer."
+  },
+  {
+    "sentence": "What's your wife's phone number?"
+  },
+  {
+    "sentence": "337-555-2141."
+  },
+  {
+    "sentence": "May I ask the reason for your appointment?"
+  },
+  {
+    "sentence": "I had an accident for couple weeks ago and now I have been feeling some dizziness and strong headaches."
+  },
+  {
+    "sentence": "Do you normally have headaches?"
+  },
+  {
+    "sentence": "No, not at all."
+  },
+  {
+    "sentence": "Any injuries on your neck or back area?"
+  },
+  {
+    "sentence": "No, not that I can feel."
+  },
+  {
+    "sentence": "Do you have any type of diabetes?"
+  },
+  {
+    "sentence": "No."
+  },
+  {
+    "sentence": "Have you had any type of cancer?"
+  },
+  {
+    "sentence": "No."
+  },
+  {
+    "sentence": "Do you have any circulation or heart problems?"
+  },
+  {
+    "sentence": "No."
+  },
+  {
+    "sentence": "Do you feel any numbness?"
+  },
+  {
+    "sentence": "No."
+  },
+  {
+    "sentence": "Do you take any medicine daily?"
+  },
+  {
+    "sentence": "No."
+  },
+  {
+    "sentence": "Any allergies?"
+  },
+  {
+    "sentence": "Hum, No."
+  },
+  {
+    "sentence": "Do you have high blood pressure?"
+  },
+  {
+    "sentence": "Yes I do, it's minor, I don't even take pills."
+  },
+  {
+    "sentence": "Thank you David, please have a seat and I will talk to you in a minute."
+  },
+  {
+    "sentence": "Okay."
+  }
+]
