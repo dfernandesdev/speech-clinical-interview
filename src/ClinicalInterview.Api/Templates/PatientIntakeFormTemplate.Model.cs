@@ -6,14 +6,14 @@ namespace ClinicalInterview.Api.Templates
 {
     public partial class PatientIntakeFormTemplate
     {
-        private readonly IConverter converter;
+        private readonly IConverter _converter;
 
         public Dictionary<string, string> Model { get; set; }
 
-        public PatientIntakeFormTemplate()
+        public PatientIntakeFormTemplate(IConverter converter)
         {
             Model = new Dictionary<string, string>();
-            converter = new BasicConverter(new PdfTools());
+            _converter = converter;
         }
 
         public string GetValue(string key) =>
@@ -34,7 +34,7 @@ namespace ClinicalInterview.Api.Templates
                     }
                 }
             };
-            return converter.Convert(doc);
+            return _converter.Convert(doc);
         }
     }
 }

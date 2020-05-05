@@ -14,8 +14,10 @@ namespace ClinicalInterview.Api.Controllers
     [Route("text")]
     public class TextController : ControllerBase
     {
-        public TextController()
+        public PatientIntakeFormTemplate IntakeFormTemplate;
+        public TextController(PatientIntakeFormTemplate intakeFormTemplate)
         {
+            IntakeFormTemplate = intakeFormTemplate;
         }
 
         /// <summary>
@@ -80,15 +82,14 @@ namespace ClinicalInterview.Api.Controllers
         /// <returns></returns>
         [HttpPost("analyze-to-pdf")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<byte[]>> AnalyzeSpeechToPdfFileAsync([FromBody]IEnumerable<TextAnalisysFormField> fields)
+        public ActionResult<byte[]> AnalyzeSpeechToPdfFileAsync([FromBody]IEnumerable<TextAnalisysFormField> fields)
         {
-            var template = new PatientIntakeFormTemplate();
             foreach (var item in fields)
-                template.Model.Add(item.Key, item.Value);
+                IntakeFormTemplate.Model.Add(item.Key, item.Value);
 
-            var printTask = Task.Run(() => template.Print());
+            var printTask = IntakeFormTemplate.Print();
 
-            return File(await printTask, "application/pdf", $"Patient_Intake_Form_{DateTime.Now.Ticks}.pdf");
+            return File(printTask, "application/pdf", $"Patient_Intake_Form_{DateTime.Now.Ticks}.pdf");
         }
     }
 }

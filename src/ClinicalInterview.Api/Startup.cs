@@ -1,4 +1,7 @@
 using ClinicalInterview.Api.Extensions;
+using ClinicalInterview.Api.Templates;
+using DinkToPdf;
+using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +27,9 @@ namespace ClinicalInterview.Api
             services.AddMyRequestLocalizationOptions();
             services.AddMyControllers();
             services.AddMySwaggerGen();
+
+            services.AddSingleton<IConverter>(x => new SynchronizedConverter(new PdfTools()));
+            services.AddScoped<PatientIntakeFormTemplate>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
