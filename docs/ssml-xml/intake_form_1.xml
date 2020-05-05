@@ -1,0 +1,144 @@
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    Hi, since it’s your first time with us I’m gonna ask you some questions so we can proceed with your appointment today.
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No <break strength="none" /> problem.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What’s your full name?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    Mark Fulton.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Your date of birth?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    January 1st 1990.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What is your address?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    8291 Ketch Harbour Street.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What city?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    San Antonio, Texas.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What’s your phone number?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    210-555-0120.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Who can we contact in case of an emergency?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    My father, Connor.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What’s your father’s phone number?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    210-555-0724.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you take any medicine on a regular basis?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    Only multivitamins.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have headaches regularly?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Have you had any kind of cancer?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any heart problems?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any circulation problems?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you feel any numbness?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    Yes, when I wake in the morning, on my left arm.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any kind of diabetes?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have high blood pressure?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    Yes.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any neck or back injuries?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Do you have any allergies?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    No, not <break strength="none" /> that I know.
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    What is the main reason for your appointment with us today?
+  </voice>
+  <voice name="en-US-GuyNeural">
+    <p>
+      I have been feeling that numbness and I would like to investigate it because it has been happening for a couple weeks and it wasn’t like that before.
+      The weirdest part is that I wasn’t involved in any kind of accident.
+    </p>
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <break time="1000ms" />
+    Okay, all set! <break strength="none" /> We will attend you on time, at 3 PM.
+  </voice>
+  <voice name="en-US-GuyNeural">
+    Thank you.
+  </voice>
+</speak>
