@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicalInterview.Api", "src\ClinicalInterview.Api\ClinicalInterview.Api.csproj", "{453FA505-2380-401B-860E-7DEC43FE26DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalInterview.App.Android", "ClinicalInterview.App\ClinicalInterview.App.Android\ClinicalInterview.App.Android.csproj", "{CAB6289D-69C8-49E8-BE65-2CE075F8E4C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalInterview.App.Android", "src\ClinicalInterview.App\ClinicalInterview.App.Android\ClinicalInterview.App.Android.csproj", "{CAB6289D-69C8-49E8-BE65-2CE075F8E4C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalInterview.App.iOS", "ClinicalInterview.App\ClinicalInterview.App.iOS\ClinicalInterview.App.iOS.csproj", "{135FF7D0-802E-420B-845B-1A3F319DF2BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalInterview.App.iOS", "src\ClinicalInterview.App\ClinicalInterview.App.iOS\ClinicalInterview.App.iOS.csproj", "{135FF7D0-802E-420B-845B-1A3F319DF2BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicalInterview.App", "ClinicalInterview.App\ClinicalInterview.App\ClinicalInterview.App.csproj", "{62A8A914-EDBD-46BE-B020-80F6B5ECCA3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicalInterview.App", "src\ClinicalInterview.App\ClinicalInterview.App\ClinicalInterview.App.csproj", "{62A8A914-EDBD-46BE-B020-80F6B5ECCA3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Frontend", "1 - Frontend", "{8E740C62-F2CE-46BA-9488-3AE101EA1799}"
 EndProject
